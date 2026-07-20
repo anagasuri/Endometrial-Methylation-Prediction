@@ -32,9 +32,10 @@ files <- list(
   case_control_univLR_KEGG = "/mnt/efs/home/ubuntu/endo-me_data/ttest_feature_selection_outputs/ttest_pathway_analysis_outputs/case_control/univariate_LR_FDR/case_control_FDR_univariate_LR_KEGG_all_results.csv",
   case_control_univLR_Reactome = "/mnt/efs/home/ubuntu/endo-me_data/ttest_feature_selection_outputs/ttest_pathway_analysis_outputs/case_control/univariate_LR_FDR/case_control_FDR_univariate_LR_Reactome_all_results.csv",
   
-  cycle_phase_univLR_GO = "/mnt/efs/home/ubuntu/endo-me_data/ttest_feature_selection_outputs/ttest_pathway_analysis_outputs/cycle_phase/univariate_LR_FDR/cycle_phase_FDR_univariate_LR_GO_all_results.csv",
-  cycle_phase_univLR_KEGG = "/mnt/efs/home/ubuntu/endo-me_data/ttest_feature_selection_outputs/ttest_pathway_analysis_outputs/cycle_phase/univariate_LR_FDR/cycle_phase_FDR_univariate_LR_KEGG_all_results.csv",
-  cycle_phase_univLR_Reactome = "/mnt/efs/home/ubuntu/endo-me_data/ttest_feature_selection_outputs/ttest_pathway_analysis_outputs/cycle_phase/univariate_LR_FDR/cycle_phase_FDR_univariate_LR_Reactome_all_results.csv"
+  # NOTE: mislabeled earlier — using ttest files for univLR
+  cycle_phase_univLR_GO = "/mnt/efs/home/ubuntu/endo-me_data/ttest_feature_selection_outputs/ttest_pathway_analysis_outputs/cycle_phase/univariate_LR_FDR/cycle_phase_FDR_ttest_GO_all_results.csv",
+  cycle_phase_univLR_KEGG = "/mnt/efs/home/ubuntu/endo-me_data/ttest_feature_selection_outputs/ttest_pathway_analysis_outputs/cycle_phase/univariate_LR_FDR/cycle_phase_FDR_ttest_KEGG_all_results.csv",
+  cycle_phase_univLR_Reactome = "/mnt/efs/home/ubuntu/endo-me_data/ttest_feature_selection_outputs/ttest_pathway_analysis_outputs/cycle_phase/univariate_LR_FDR/cycle_phase_FDR_ttest_Reactome_all_results.csv"
 )
 
 ############################################################
